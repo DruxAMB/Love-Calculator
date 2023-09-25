@@ -1,7 +1,7 @@
 
 body {
     margin: auto;
-    background-image: url(/images/background.jpeg);
+    background-image: url(/images/background.jpg);
     background-position: center;
 }
 
@@ -10,7 +10,7 @@ body {
     border: 5px solid transparent;
     border-radius: 2.5rem;
     box-shadow: 5px 5px 5px 15px rgb(130, 17, 17), -15px 15px 15px rgb(126, 138, 126);
-    background-color: rgba(127, 255, 212, 0.172);
+    background-color: rgba(228, 15, 11, 0.698);
 }
 
 .header{
