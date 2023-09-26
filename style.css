@@ -7,6 +7,7 @@ body {
 
 .main {
     margin: 25vh auto;
+    width: 30rem;
     border: 5px solid transparent;
     border-radius: 2.5rem;
     box-shadow: 5px 5px 5px 15px rgb(130, 17, 17), -15px 15px 15px rgb(126, 138, 126);
@@ -17,9 +18,13 @@ body {
     text-align: center;
 }
 
-input, #btn {
+input, #btn, #rst {
     border: 2px solid red;
     border-radius: 0.3rem;
+}
+
+#rst {
+    display: none;
 }
 
 input::placeholder{
@@ -29,5 +34,8 @@ input::placeholder{
 @media screen and (max-width: 500px) {
     body {
         background-image: url(background\ -\ mobile.jpg);
+    }
+    .main {
+        width: 24rem;
     }
 }
